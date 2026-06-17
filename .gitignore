@@ -1,23 +1,12 @@
-# Terraform
-**/.terraform/*
-*.tfstate
-*.tfstate.*
-.terraform.lock.hcl
-
-# Terraform variables
-*.tfvars
-*.tfvars.json
-
-# Python
-__pycache__/
+**pycache**/
 *.pyc
-*.pyo
 
-# macOS
+instance/
+*.db
+
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.backup
+
 .DS_Store
-
-# VS Code
 .vscode/
-
-# Logs
-*.log
